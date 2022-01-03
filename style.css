@@ -1,0 +1,71 @@
+body {
+  font-family: "Public Sans";
+  text-align: center;
+  background-color: rgb(65, 212, 180);
+}
+
+h1 {
+  color: #000;
+  font-weight: 800;
+  font-size: 2.5em;
+  line-height: 1em;
+  text-align: left;
+  padding: 0 !important;
+}
+
+.weather {
+  padding: 1em 2em;
+  margin: 2em auto 0;
+  max-width: 600px;
+  border-radius: 15px;
+  font-family: "Public Sans";
+  text-align: left;
+  background-color: #fff;
+}
+
+.temperature {
+  font-size: 5em;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+li {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.dayofweek,
+.conditions {
+  font-family: "Public Sans";
+  color: #000;
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.conditions {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#list {
+  background-color: #eee;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+.types {
+  font-size: 0.25em;
+  position: relative;
+
+  left: -15px;
+  top: 0;
+}
